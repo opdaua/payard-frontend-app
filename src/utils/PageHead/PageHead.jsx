@@ -41,7 +41,7 @@ export const PageHead = ({ data }) => {
       {/* Viewport */}
       <meta
         name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1"
+        content="width=device-width, initial-scale=1, maximum-scale=5"
       />
 
       {/* Character Set */}
