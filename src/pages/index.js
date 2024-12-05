@@ -3,18 +3,18 @@ import { DataProvider } from "@/lib/providers/DataProvider/DataProvider";
 import { PageHead } from "@/utils/PageHead/PageHead";
 import dynamic from "next/dynamic";
 
-//const HomePage = dynamic(() => import('@/components/HomePage/HomePage'), {
-//  ssr: true,
-//});
-import { HomePage } from "@/components/HomePage/HomePage";
+const HomePage = dynamic(() => import('@/components/HomePage/HomePage'), {
+  //ssr: false,
+});
+
 
 const Home = ({data}) => {
   return (
     <>
       <PageHead data={data.seo}/>
-
-        <HomePage data={data} />
-
+      <DataProvider url={URL_HOME}>
+        <HomePage />
+      </DataProvider>
     </>
   );
 };
