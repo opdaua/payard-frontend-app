@@ -10,7 +10,7 @@ import CTA from "./CTA/CTA";
 import Consulting from "./Consulting/Consulting";
 import UpcomingFeatures from "./UpcomingFeatures/UpcomingFeatures";
 
-const HomePage = () => {
+const HomePage = ({ data }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
