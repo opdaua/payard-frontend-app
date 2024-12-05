@@ -50,8 +50,8 @@ export const PageHead = ({ data }) => {
       {/* X-UA-Compatible */}
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
-        <link rel="preload" href="https://payard-frontend-app-six.vercel.app/images/hero/herobg.png" as="image">
-        <link rel="preload" href="https://payard-frontend-app-six.vercel.app/images/whyPayard/bg.png" as="image">
+        <link rel="preload" href="https://payard-frontend-app-six.vercel.app/images/hero/herobg.png" as="image" />
+        <link rel="preload" href="https://payard-frontend-app-six.vercel.app/images/whyPayard/bg.png" as="image" />
 
       {/* #region */}
       <link
