@@ -4,7 +4,7 @@ import { PageHead } from "@/utils/PageHead/PageHead";
 import dynamic from "next/dynamic";
 
 const HomePage = dynamic(() => import('@/components/HomePage/HomePage'), {
-  //ssr: false,
+  ssr: true,
 });
 
 
